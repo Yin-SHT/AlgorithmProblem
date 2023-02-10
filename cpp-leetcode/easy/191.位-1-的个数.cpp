@@ -16,7 +16,7 @@ public:
                 c++;
             }
             n >>= 1;
-        }
+        }    
         return c;
     }
 };

@@ -43,6 +43,7 @@ ListNode *findMidNode(ListNode *first, ListNode *second) {
     return tail;
 }
 
+
 TreeNode *convertTree(ListNode *first, ListNode *second) {
     ListNode *mid = findMidNode(first, second);
     if ( first == second ) {
